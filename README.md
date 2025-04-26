@@ -29,7 +29,9 @@ Argumentos:
 | --keywords | Palabras clave a buscar (puedes pasar varias)      | ❌         | ["taxi", "ride-sharing", "transportation"] |
 | --limit    | Máximo número de repositorios a mostrar (máx 100)  | ❌         | 10                                         |
 | --sort     | Orden por el cual va ha buscar                     | ❌         | "stars"                                    |
+
 ## Ejemplo de Salida
+
 Buscando repositorios...
 
 Nombre: awesome-taxi-data
@@ -39,4 +41,8 @@ URL: https://github.com/user/awesome-taxi-data
 Commits recientes: 5
 Contribuidores: 12
 Issues abiertas: 3
+## Test unitarios 
+Ejecutar el script desde la terminal: 
+python -m unittest test_github_client.py -v
+
 ----------------------------------------
