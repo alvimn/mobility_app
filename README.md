@@ -18,11 +18,11 @@ pip install -r requirements.txt
 ## Uso
 Ejecuta el script desde la terminal:
 
-bash
-Copy
-Edit
-python main.py --language python --keywords taxi ride-sharing --limit 5
-Argumentos:
+bash <br>
+Copy <br>
+Edit <br>
+python main.py --language python --keywords taxi ride-sharing --limit 5 <br>
+### Argumentos:
 |   Opción   |                     Descripción                    | Requerido |              Valor por defecto             |
 |:----------:|:--------------------------------------------------:|:---------:|:------------------------------------------:|
 | --language | Lenguaje de programación para filtrar repositorios | ❌         | -                                          |
@@ -34,15 +34,15 @@ Argumentos:
 
 Buscando repositorios...
 
-Nombre: awesome-taxi-data
-Estrellas: 1523
-Lenguaje: Python
-URL: https://github.com/user/awesome-taxi-data
-Commits recientes: 5
-Contribuidores: 12
-Issues abiertas: 3
+Nombre: awesome-taxi-data <br>
+Estrellas: 1523 <br>
+Lenguaje: Python <br>
+URL: https://github.com/user/awesome-taxi-data <br>
+Commits recientes: 5 <br>
+Contribuidores: 12 <br>
+Issues abiertas: 3 <br>
 ## Test unitarios 
-Ejecutar el script desde la terminal: 
+Ejecutar el script desde la terminal:  <br>
 python -m unittest test_github_client.py -v
 
 ----------------------------------------
