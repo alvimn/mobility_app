@@ -23,12 +23,12 @@ Copy
 Edit
 python main.py --language python --keywords taxi ride-sharing --limit 5
 Argumentos:
-
-Opción	Descripción	Requerido	Valor por defecto
---language	Lenguaje de programación para filtrar repositorios	❌	-
---keywords	Palabras clave a buscar (puedes pasar varias)	❌	["taxi", "ride-sharing", "transportation"]
---limit	Máximo número de repositorios a mostrar (máx 100)	❌	10
-
+|   Opción   |                     Descripción                    | Requerido |              Valor por defecto             |
+|:----------:|:--------------------------------------------------:|:---------:|:------------------------------------------:|
+| --language | Lenguaje de programación para filtrar repositorios | ❌         | -                                          |
+| --keywords | Palabras clave a buscar (puedes pasar varias)      | ❌         | ["taxi", "ride-sharing", "transportation"] |
+| --limit    | Máximo número de repositorios a mostrar (máx 100)  | ❌         | 10                                         |
+| --sort     | Orden por el cual va ha buscar                     | ❌         | "stars"                                    |
 ## Ejemplo de Salida
 Buscando repositorios...
 
